@@ -2,11 +2,11 @@
 
 public class Day1Service
 {
-	public static Day1ModelC1? CreateModel(string input)
+	public static Day1Model? CreateModel(string input)
 	{
 		try
 		{
-			Day1ModelC1 result = new();
+			Day1Model result = new();
 			int start = 0;
 			int end = 0;
 			char newLine = '\n';
@@ -31,7 +31,7 @@ public class Day1Service
 		return null;
 	}
 
-	public static int TotalDistance(Day1ModelC1? input)
+	public static int TotalDistance(Day1Model? input)
 	{	
 		try
 		{
@@ -62,7 +62,7 @@ public class Day1Service
 		return 0;
 	}
 
-	public static int SimilarityScore(Day1ModelC1? input)
+	public static int SimilarityScore(Day1Model? input)
 	{
 		try
 		{
