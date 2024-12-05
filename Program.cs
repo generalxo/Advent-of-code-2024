@@ -6,7 +6,9 @@ class Program
     {
 		Console.WriteLine("Program Start");
 		//Day1Main.Day1MainFunc();
-		Day2Main.Day2MainFunc();
+		//Day2Main.Day2MainFunc();
+		Day3Main.Day3MainFunc();
 		Console.WriteLine("Program End");
+		Console.ReadKey();
     }
 }
